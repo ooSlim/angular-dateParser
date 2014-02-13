@@ -244,7 +244,7 @@ angular.module('dateParser', [])
 
 				return new Date(year, month - 1, date, hh, mm, ss);
 			} catch(e) {
-				$log.error(e);
+//				$log.error(e);
 
 				return new Date(undefined);
 			}
